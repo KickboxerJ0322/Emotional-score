@@ -141,9 +141,10 @@
           displayAnalysisResult(result);
         })
         .catch(error => {
-          console.error('Fetch error:', error); // エラーをコンソールに表示
+          console.error('Fetch error:', error); // エラーの詳細をコンソールに表示
         });
       }
+     
            
       function displayAnalysisResult(result) {
         const canvas = document.getElementById('canvas');
