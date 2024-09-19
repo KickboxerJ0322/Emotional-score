@@ -4,7 +4,8 @@
     <base target="_top">
     <style>
       body {
-        overflow-x: scroll; /* 横スクロールを許可 */
+        overflow-x: hidden; /* 横スクロールを非表示 */
+        max-width: 100%; /* 画面幅に合わせて縮小 */
       }
       .controls {
         display: flex;
@@ -15,32 +16,30 @@
         position: relative;
         display: inline-block;
         margin-top: 20px;
-        width: auto; /* 親要素の幅をautoに設定 */
+        width: 100%; /* 親要素の幅を100%に設定 */
       }
       img {
-        max-width: none !important; /* 縮小されないように強制 */
-        width: auto;
+        max-width: 100%; /* 画像を画面幅に合わせて縮小 */
         height: auto;
       }
       #canvas {
         position: absolute;
         top: 0;
         left: 0;
-        max-width: none;
+        width: 100%; /* Canvasの幅も画像と連動 */
         height: auto;
         z-index: 10;
         pointer-events: none;
       }
       #annotatedImage {
-        max-width: none;
+        max-width: 100%; /* アノテーション画像も画面幅に対応 */
         height: auto;
         display: none;
       }
       h1 {
         display: none;
       }
-    </style>
-  </head>
+    </style>  </head>
   <body>
     <h1>
       <img src="https://kickboxerj0322.github.io/tohokuzunko/71_emotional score.png" alt="emotional score"> <!-- ロゴ画像の追加 -->
