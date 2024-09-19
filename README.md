@@ -12,4 +12,5 @@
 ## URL
 
 - **[sample_index.html](https://sites.google.com/view/emotionalscore/%E3%83%9B%E3%83%BC%E3%83%A0)**
+- スマホから利用する場合は、ブラウザでPC版サイトに設定してご利用ください。
 - このhtmlは、corsの制限からgoogleのオリジン以外では正しく動作しませんので、ご注意ください。
