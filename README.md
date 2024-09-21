@@ -4,9 +4,9 @@
 
 ## sample
 
-- **sample_index.html**: htmlのコードです。
-- **sample_code.gs**: gasのコードです。
-- **sample_cloudrun_index.js**: cloud runのコードです。
+- **sample_index.html**: htmlのコードです。cloud runのURL、を置き換えて利用ください。
+- **sample_code.gs**: gasのコードです。SPREADSHEETのID、シート名、google driveのフォルダID、google api key、VOICEVOX_API_KEY、を置き換えて利用ください。
+- **sample_cloudrun_index.js**: cloud runのコードです。Vision APIのキー、を置き換えて利用ください。
 - **sample_cloudrun_package.json**: cloud runのコードです。
 
 ## URL
